@@ -1,4 +1,4 @@
-<img src="mrklogo.png" alt="MRKTrace Logo">
+<img src="mrklogo.jpg" alt="MRKTrace Logo">
 
 # MRKViper
 

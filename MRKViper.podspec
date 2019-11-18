@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 	s.name         = "MRKViper"
-	s.version      = "1.0.0"
+	s.version      = "1.0.1"
 	s.summary      = "MRKTrace library for VIPER development"
 	s.description  = "With this library you will be able to create a VIPER arquitecture with ease"
 	s.homepage     = "https://github.com/mrktrace/MRKViper"
@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
 
 	# ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-	s.platform     = :ios, "11.0"
-	s.swift_version = "4.0"
+	s.platform     = :ios, "8.0"
+	# s.swift_version = "4.0"
 
 	# ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-	s.source       = { :git => "https://github.com/mrktrace/MRKViper.git", :tag => "1.0.0" }
+	s.source       = { :git => "https://github.com/mrktrace/MRKViper.git", :tag => "1.0.1" }
 
 	# ――― Sub specs ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
