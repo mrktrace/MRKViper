@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420F1ADC238325AC00415488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1ADB238325AC00415488 /* AppDelegate.swift */; };
+		420F1AE3238325AD00415488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420F1AE2238325AD00415488 /* Assets.xcassets */; };
+		420F1AE6238325AD00415488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420F1AE4238325AD00415488 /* LaunchScreen.storyboard */; };
+		420F1AF9238325DE00415488 /* MRKGenericBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1AF0238325DE00415488 /* MRKGenericBuilder.swift */; };
+		420F1AFA238325DE00415488 /* MRKWireframeGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1AF2238325DE00415488 /* MRKWireframeGeneric.swift */; };
+		420F1AFB238325DE00415488 /* MRKPresenterGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1AF4238325DE00415488 /* MRKPresenterGeneric.swift */; };
+		420F1AFC238325DE00415488 /* MRKInteractorGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1AF6238325DE00415488 /* MRKInteractorGeneric.swift */; };
+		420F1AFD238325DE00415488 /* MRKViewControllerGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1AF8238325DE00415488 /* MRKViewControllerGeneric.swift */; };
+		420F1B012383298D00415488 /* MRKGenericColorExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1AFF2383298D00415488 /* MRKGenericColorExampleVC.swift */; };
+		420F1B022383298D00415488 /* MRKGenericColorExampleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420F1B002383298D00415488 /* MRKGenericColorExampleVC.xib */; };
+		420F1B0523832C9F00415488 /* MRKExampleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1B0423832C9F00415488 /* MRKExampleBuilder.swift */; };
+		420F1B072383361D00415488 /* MRKGenericColorExampleWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1B062383361D00415488 /* MRKGenericColorExampleWireframe.swift */; };
+		420F1B092383364200415488 /* MRKGenericColorExamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1B082383364200415488 /* MRKGenericColorExamplePresenter.swift */; };
+		420F1B0B2383365800415488 /* MRKGenericColorExampleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F1B0A2383365800415488 /* MRKGenericColorExampleInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420F1AD8238325AC00415488 /* MRKViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRKViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420F1ADB238325AC00415488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		420F1AE2238325AD00415488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420F1AE5238325AD00415488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		420F1AE7238325AD00415488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420F1AF0238325DE00415488 /* MRKGenericBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRKGenericBuilder.swift; sourceTree = "<group>"; };
+		420F1AF2238325DE00415488 /* MRKWireframeGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRKWireframeGeneric.swift; sourceTree = "<group>"; };
+		420F1AF4238325DE00415488 /* MRKPresenterGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRKPresenterGeneric.swift; sourceTree = "<group>"; };
+		420F1AF6238325DE00415488 /* MRKInteractorGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRKInteractorGeneric.swift; sourceTree = "<group>"; };
+		420F1AF8238325DE00415488 /* MRKViewControllerGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRKViewControllerGeneric.swift; sourceTree = "<group>"; };
+		420F1AFF2383298D00415488 /* MRKGenericColorExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRKGenericColorExampleVC.swift; sourceTree = "<group>"; };
+		420F1B002383298D00415488 /* MRKGenericColorExampleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MRKGenericColorExampleVC.xib; sourceTree = "<group>"; };
+		420F1B0423832C9F00415488 /* MRKExampleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRKExampleBuilder.swift; sourceTree = "<group>"; };
+		420F1B062383361D00415488 /* MRKGenericColorExampleWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRKGenericColorExampleWireframe.swift; sourceTree = "<group>"; };
+		420F1B082383364200415488 /* MRKGenericColorExamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRKGenericColorExamplePresenter.swift; sourceTree = "<group>"; };
+		420F1B0A2383365800415488 /* MRKGenericColorExampleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRKGenericColorExampleInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420F1AD5238325AC00415488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420F1ACF238325AC00415488 = {
+			isa = PBXGroup;
+			children = (
+				420F1AED238325BE00415488 /* Example */,
+				420F1ADA238325AC00415488 /* MRKViper */,
+				420F1AD9238325AC00415488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420F1AD9238325AC00415488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AD8238325AC00415488 /* MRKViper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420F1ADA238325AC00415488 /* MRKViper */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AEE238325DE00415488 /* src */,
+			);
+			path = MRKViper;
+			sourceTree = "<group>";
+		};
+		420F1AED238325BE00415488 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				420F1B0323832C7200415488 /* Builders */,
+				420F1AFE2383294700415488 /* Generic */,
+				420F1ADB238325AC00415488 /* AppDelegate.swift */,
+				420F1AE2238325AD00415488 /* Assets.xcassets */,
+				420F1AE4238325AD00415488 /* LaunchScreen.storyboard */,
+				420F1AE7238325AD00415488 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		420F1AEE238325DE00415488 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AEF238325DE00415488 /* builders */,
+				420F1AF1238325DE00415488 /* wireframes */,
+				420F1AF3238325DE00415488 /* presenters */,
+				420F1AF5238325DE00415488 /* interactors */,
+				420F1AF7238325DE00415488 /* views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		420F1AEF238325DE00415488 /* builders */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AF0238325DE00415488 /* MRKGenericBuilder.swift */,
+			);
+			path = builders;
+			sourceTree = "<group>";
+		};
+		420F1AF1238325DE00415488 /* wireframes */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AF2238325DE00415488 /* MRKWireframeGeneric.swift */,
+			);
+			path = wireframes;
+			sourceTree = "<group>";
+		};
+		420F1AF3238325DE00415488 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AF4238325DE00415488 /* MRKPresenterGeneric.swift */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		420F1AF5238325DE00415488 /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AF6238325DE00415488 /* MRKInteractorGeneric.swift */,
+			);
+			path = interactors;
+			sourceTree = "<group>";
+		};
+		420F1AF7238325DE00415488 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				420F1AF8238325DE00415488 /* MRKViewControllerGeneric.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		420F1AFE2383294700415488 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				420F1B082383364200415488 /* MRKGenericColorExamplePresenter.swift */,
+				420F1B062383361D00415488 /* MRKGenericColorExampleWireframe.swift */,
+				420F1B0A2383365800415488 /* MRKGenericColorExampleInteractor.swift */,
+				420F1AFF2383298D00415488 /* MRKGenericColorExampleVC.swift */,
+				420F1B002383298D00415488 /* MRKGenericColorExampleVC.xib */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		420F1B0323832C7200415488 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				420F1B0423832C9F00415488 /* MRKExampleBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420F1AD7238325AC00415488 /* MRKViper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420F1AEA238325AD00415488 /* Build configuration list for PBXNativeTarget "MRKViper" */;
+			buildPhases = (
+				420F1AD4238325AC00415488 /* Sources */,
+				420F1AD5238325AC00415488 /* Frameworks */,
+				420F1AD6238325AC00415488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRKViper;
+			productName = MRKViper;
+			productReference = 420F1AD8238325AC00415488 /* MRKViper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420F1AD0238325AC00415488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Marc Flores";
+				TargetAttributes = {
+					420F1AD7238325AC00415488 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 420F1AD3238325AC00415488 /* Build configuration list for PBXProject "MRKViper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420F1ACF238325AC00415488;
+			productRefGroup = 420F1AD9238325AC00415488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420F1AD7238325AC00415488 /* MRKViper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420F1AD6238325AC00415488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F1B022383298D00415488 /* MRKGenericColorExampleVC.xib in Resources */,
+				420F1AE6238325AD00415488 /* LaunchScreen.storyboard in Resources */,
+				420F1AE3238325AD00415488 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420F1AD4238325AC00415488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F1B012383298D00415488 /* MRKGenericColorExampleVC.swift in Sources */,
+				420F1AFA238325DE00415488 /* MRKWireframeGeneric.swift in Sources */,
+				420F1ADC238325AC00415488 /* AppDelegate.swift in Sources */,
+				420F1B0523832C9F00415488 /* MRKExampleBuilder.swift in Sources */,
+				420F1AFC238325DE00415488 /* MRKInteractorGeneric.swift in Sources */,
+				420F1B0B2383365800415488 /* MRKGenericColorExampleInteractor.swift in Sources */,
+				420F1B072383361D00415488 /* MRKGenericColorExampleWireframe.swift in Sources */,
+				420F1B092383364200415488 /* MRKGenericColorExamplePresenter.swift in Sources */,
+				420F1AF9238325DE00415488 /* MRKGenericBuilder.swift in Sources */,
+				420F1AFB238325DE00415488 /* MRKPresenterGeneric.swift in Sources */,
+				420F1AFD238325DE00415488 /* MRKViewControllerGeneric.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		420F1AE4238325AD00415488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420F1AE5238325AD00415488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420F1AE8238325AD00415488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		420F1AE9238325AD00415488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420F1AEB238325AD00415488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WTYVNSL3D;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MRKTrace.MRKViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420F1AEC238325AD00415488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WTYVNSL3D;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MRKTrace.MRKViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420F1AD3238325AC00415488 /* Build configuration list for PBXProject "MRKViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420F1AE8238325AD00415488 /* Debug */,
+				420F1AE9238325AD00415488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420F1AEA238325AD00415488 /* Build configuration list for PBXNativeTarget "MRKViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420F1AEB238325AD00415488 /* Debug */,
+				420F1AEC238325AD00415488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420F1AD0238325AC00415488 /* Project object */;
+}
