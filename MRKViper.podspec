@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 	# ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-	s.source       = { :git => "https://github.com/mrktrace/MRKViper.git", :tag => "0.7.1" }
+	s.source       = { :git => "https://github.com/mrktrace/MRKViper.git", :tag => "1.0.0" }
 
 	# ――― Sub specs ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
