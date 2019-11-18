@@ -1,18 +1,17 @@
-[alt logo](https://github.com/mrktrace/MRKViper/blob/master/mrklogo.png?raw=true)
+<img src="mrklogo.png" alt="MRKTrace Logo">
 
 # MRKViper
 
 MRKViper will allow you to create an Scalable and Stable structure for your projects following the VIPER system.
 With a lot of reusable contents by just using <b>4 elements</b>.
 
-## Add the pod `MRKViper` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
+## Add the pod 'MRKViper' to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
 
   ```ruby
   pod 'MRKViper'
   ```
   
   ## Usage
-### Sample Code
 
 # Split all your scenes in 4 elements:
 
@@ -84,4 +83,4 @@ Finally use the function MRKBuilder to connect all the elements and receive them
   
 ```
 
-I hope this pod is useful to you, and if it saves your life, a beer is always welcome! 🍺
+I hope this pod is useful to you, and if it saves your life you can get me a beer! 🍺
