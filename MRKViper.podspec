@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
 	s.name         = "MRKViper"
-	s.version      = "0.7.1"
+	s.version      = "1.0.0"
 	s.summary      = "MRKTrace library for VIPER development"
-	s.description  = "MRKTrace library for VIPER development"
+	s.description  = "With this library you will be able to create a VIPER arquitecture with ease"
 	s.homepage     = "https://github.com/mrktrace/MRKViper"
 	# s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
