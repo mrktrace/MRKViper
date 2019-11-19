@@ -1,4 +1,4 @@
-<img src="mrklogo.jpg" alt="MRKTrace Logo">
+<img src="https://github.com/mrktrace/MRKViper/blob/master/mrklogo.jpg" alt="MRKTrace Logo">
 
 # MRKViper
 
